@@ -13,14 +13,14 @@ Saya membangun sistem *end-to-end* yang tidak hanya memprediksi, tapi juga membe
 | :--- | :--- | :--- |
 | **Prediction Model** | Random Forest Classifier | Menangani pola non-linear pada data finansial yang kompleks. |
 | **Accuracy** | **98.6%** | Tingkat ketepatan prediksi keseluruhan. |
-| **Recall (Sensitivity)** | **94.7%** | **Metric Paling Kritis.** Sistem berhasil menangkap 95% potensi gagal bayar. |
+| **Recall (Sensitivity)** | **94.7%** | **Metric Paling penting.** Sistem berhasil menangkap 95% potensi gagal bayar. |
 | **False Positive Rate** | **0.2%** | Tingkat kesalahan menolak nasabah "baik" sangat minim. |
 
 ## 💡 Apa yang Saya Temukan? (My Insights)
-Setelah "ngulik" 32.000+ data nasabah, ada beberapa pola menarik yang saya temukan. Ternyata tebakan awal saya nggak selalu benar:
+Setelah melihat 32.000+ data nasabah, ada beberapa pola menarik yang saya temukan.
 
 1.  **Gaji Besar Bukan Jaminan**
-    Saya kira orang bergaji tinggi pasti aman. Ternyata salah. Faktor paling penentu adalah **Rasio Utang (Debt-to-Income)**. Orang gaji besar tapi cicilannya menumpuk (>40% gaji) justru yang paling sering macet.
+    Saya kira orang bergaji tinggi pasti aman. Ternyata salah. Faktor paling penentu adalah **Rasio Utang (Debt-to-Income)**. Orang gaji besar tapi cicilannya menumpuk (>40% gaji) justru yang paling gagal bayar.
 
 2.  **Sewa vs Punya Rumah**
     Data menunjukkan kalau nasabah yang statusnya masih **Sewa (Rent)** lebih berisiko dibanding yang sudah punya rumah sendiri. Mungkin ini berkaitan dengan kestabilan finansial.
