@@ -37,7 +37,7 @@ Awalnya saya coba beberapa model, tapi Random Forest yang paling stabil hasilnya
 * **Akurasi:** 93%
 * **Recall:** ~95%
 
-Saya sengaja setting modelnya supaya agak "galak" (Sensitif). Lebih baik modelnya cerewet menolak nasabah yang ragu-ragu, daripada bank rugi besar karena salah kasih pinjaman.
+Saya setting modelnya agar agak kaku. Lebih baik modelnya menolak nasabah yang meragukan, daripada bank rugi besar karena salah kasih pinjaman.
 
 ---
 
