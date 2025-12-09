@@ -16,24 +16,22 @@ Saya membangun sistem *end-to-end* yang tidak hanya memprediksi, tapi juga membe
 | **Recall (Sensitivity)** | **94.7%** | **Metric Paling penting.** Sistem berhasil menangkap 95% potensi gagal bayar. |
 | **False Positive Rate** | **0.2%** | Tingkat kesalahan menolak nasabah "baik" sangat minim. |
 
-## 🔄 End-to-End Workflow
+## 🔄 Alur Kerja (Workflow)
 
-Berikut adalah arsitektur data pipeline yang diterapkan dalam proyek ini:
+Berikut adalah gambaran alur data dari mentah sampai jadi dashboard:
 
 ```mermaid
 graph TD;
-    A[📂 Raw Dataset] -->|Import| B(🗄️ SQL Server);
-    B -->|Query & Aggregation| C[📄 Exported CSV];
-    C -->|Load Data| D(🐍 Python / Jupyter);
-    D -->|Cleaning & Outlier Removal| E{⚙️ Preprocessing};
-    E -->|Train Random Forest| F[🤖 ML Model];
-    F -->|Predict Probabilities| G[📄 Risk_Score_Output.csv];
-    G -->|Visualize| H(📊 Power BI Dashboard);
-    H -->|What-If Analysis| I((💡 Business Decision));
-    
+    A[Data Mentah CSV] -->|Load| B( Python / Pandas);
+    B -->|Cleaning & Imputasi| C{ Preprocessing};
+    C -->|Training Random Forest| D[Model ML];
+    D -->|Prediksi & Export| E[Hasil_Prediksi.csv];
+    E -->|Visualisasi| F(Power BI Dashboard);
+    F -->|Simulasi| G((Keputusan Bisnis));
+
     style A fill:#f9f,stroke:#333,stroke-width:2px
-    style F fill:#bbf,stroke:#333,stroke-width:2px
-    style H fill:#bfb,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style F fill:#bfb,stroke:#333,stroke-width:2px
 
 ## 💡 Apa yang Saya Temukan? (My Insights)
 Setelah melihat 32.000+ data nasabah, ada beberapa pola menarik yang saya temukan.
