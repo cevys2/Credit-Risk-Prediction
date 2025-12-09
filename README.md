@@ -22,17 +22,16 @@ Berikut adalah gambaran alur data dari mentah sampai jadi dashboard:
 
 ```mermaid
 graph TD;
-    A[Data Mentah CSV] -->|Load| B( Python / Pandas);
-    B -->|Cleaning & Imputasi| C{ Preprocessing};
-    C -->|Training Random Forest| D[Model ML];
-    D -->|Prediksi & Export| E[Hasil_Prediksi.csv];
-    E -->|Visualisasi| F(Power BI Dashboard);
-    F -->|Simulasi| G((Keputusan Bisnis));
+    A[📂 Data Mentah CSV] -->|Load| B(🐍 Python / Pandas);
+    B -->|Cleaning & Imputasi| C{⚙️ Preprocessing};
+    C -->|Training Random Forest| D[🤖 Model ML];
+    D -->|Prediksi & Export| E[📄 Hasil_Prediksi.csv];
+    E -->|Visualisasi| F(📊 Power BI Dashboard);
+    F -->|Simulasi| G((💡 Keputusan Bisnis));
 
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style D fill:#bbf,stroke:#333,stroke-width:2px
     style F fill:#bfb,stroke:#333,stroke-width:2px
-
 ## 💡 Apa yang Saya Temukan? (My Insights)
 Setelah melihat 32.000+ data nasabah, ada beberapa pola menarik yang saya temukan.
 
