@@ -33,6 +33,8 @@ graph TD;
     style D fill:#bbf,stroke:#333,stroke-width:2px
     style F fill:#bfb,stroke:#333,stroke-width:2px;
 
+
+
 ## 💡 Apa yang Saya Temukan? (My Insights)
 Setelah melihat 32.000+ data nasabah, ada beberapa pola menarik yang saya temukan.
 
