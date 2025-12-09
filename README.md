@@ -34,7 +34,7 @@ graph TD;
     style F fill:#bfb,stroke:#333,stroke-width:2px
 ```
 
-## 💡 Apa yang Saya Temukan? (My Insights)
+## Apa yang Saya Temukan? (My Insights)
 Setelah melihat 32.000+ data nasabah, ada beberapa pola menarik yang saya temukan.
 
 1.  **Gaji Besar Bukan Jaminan**
@@ -48,7 +48,7 @@ Setelah melihat 32.000+ data nasabah, ada beberapa pola menarik yang saya temuka
 
 ---
 
-## 🤖 Belajar Machine Learning
+## Belajar Machine Learning
 Di bagian ini, saya menggunakan algoritma **Random Forest**.
 Awalnya saya coba beberapa model, tapi Random Forest yang paling stabil hasilnya.
 
@@ -59,7 +59,7 @@ Saya setting modelnya agar agak kaku. Lebih baik modelnya menolak nasabah yang m
 
 ---
 
-## 🛠️ Tantangan Teknis (Behind the Scenes)
+## Tantangan Teknis (Behind the Scenes)
 
 Proyek ini tidak berjalan mulus begitu saja. Ada beberapa kendala yang saya hadapi:
 
@@ -72,7 +72,7 @@ Proyek ini tidak berjalan mulus begitu saja. Ada beberapa kendala yang saya hada
 
 ---
 
-## 📊 Dashboard Interaktif
+## Dashboard Interaktif
 Saya membuat dashboard di Power BI untuk memvisualisasikan hasil prediksi ini.
 Fitur favorit saya di sini adalah **"What-If Analysis"**.
 Kita bisa geser slider untuk melihat: *"Kalau aturan bank diperketat, berapa nasabah yang bakal ditolak?"*
