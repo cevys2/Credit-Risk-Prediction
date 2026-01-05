@@ -1,4 +1,3 @@
-#Credit Risk Prediction
 
 ![Dashboard Preview](CreditRiskPBI.png)
 *(Tampilan Dashboard Utama: Risk Simulation)*
